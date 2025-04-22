@@ -1,17 +1,13 @@
-#include <stdio.h>
-#define SIZE 100
-void push(int);
-void pop();
-void peek();
-void display();
+#include "stack.h"
 int stack[SIZE];
 int top = -1;
 
 int main() {
+
     int choice, value;
     while (1) {
         printf("\n--- STACK MENU ---\n");
-        printf("WARNING: SIZE OF STACK IS 100");
+        printf("WARNING: SIZE OF STACK IS 100\n");
         printf("1. PUSH\n2. POP\n3. PEEK\n4. DISPLAY\n5. EXIT\n");
         printf("ENTER YOUR CHOICE: ");
         scanf("%d", &choice);

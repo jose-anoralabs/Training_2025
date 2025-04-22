@@ -1,7 +1,4 @@
-#include<stdio.h>
-#define SIZE 100
-extern int top;
-extern int stack[SIZE];
+#include "stack.h"
 void push(int value) {
     if (top == SIZE - 1) {
         printf("Stack Overflow\n");

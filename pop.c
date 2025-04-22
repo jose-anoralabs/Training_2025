@@ -1,7 +1,4 @@
-#include<stdio.h>
-#define SIZE 100
-extern int stack[SIZE];
-extern int top;
+#include "stack.h"
 void pop() 
 {
     if (top == -1) 
